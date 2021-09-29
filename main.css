@@ -1,0 +1,95 @@
+body{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+#saat{
+    margin-left:56px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(158, 0, 97);
+    color:rgb(255, 255, 255);
+    border-radius: 40%;
+}
+
+#saat_yuzu{
+    position: absolute;
+    left: 100px;
+    top:25px;
+    margin: auto;
+    vertical-align: auto;
+}
+
+#merkez_nokta{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left:82px;
+    top:105px;
+    background-color: white;
+    border-radius: 100px;
+    font-size: 70px;
+    z-index: 4;
+}
+
+
+#uc{
+    position: absolute;
+    left:150px;
+    top:80px;
+    color:rgb(199, 199, 199);
+}
+
+#alti{
+    position: absolute;
+    left: 80px;
+    top:150px;
+    color:rgb(226, 211, 211);
+}
+
+#dokuz{
+    position: absolute;
+    top:80px;
+    color:rgb(223, 223, 223);
+}
+
+#oniki{
+    position: absolute;
+    left:65px;
+}
+
+#yelkovan {
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom;
+    left: 85px;
+    top:8px;
+    z-index: 2;
+}
+#akrep {
+    position: absolute;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+    width: 2px;
+    top:44.5px;
+    left: 85px;
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    z-index: 1;
+}
+#saniye {
+    position: absolute;
+    height: 90px;
+    border-radius: 10px;
+    background-color:rgb(78, 78, 78);
+    width: 2px;
+    top:-4px;
+    left: 85px;
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    z-index: 3;
+}
